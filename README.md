@@ -29,6 +29,7 @@ For detailed comparison, check the box before starting.
 ## Settings
 
 Click "Settings" to configure column indices. (starts from 0)
+
 Settings save automatically in `excel_compare_settings.json`.
 
 ## Build Standalone App
