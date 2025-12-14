@@ -1001,9 +1001,5 @@ class ExcelComparisonApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    try:
-        root.iconbitmap("excel_logo.ico")
-    except:
-        pass
     app = ExcelComparisonApp(root)
     root.mainloop()
