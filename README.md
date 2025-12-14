@@ -36,7 +36,7 @@ Settings save automatically in `excel_compare_settings.json`.
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --icon=excel_logo.ico excel_comparison.py
+pyinstaller --onefile --windowed excel_comparison.py
 ```
 
 Executable will be in `dist` folder.
