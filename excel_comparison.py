@@ -74,7 +74,7 @@ class SettingsWindow:
         
         self.window = tk.Toplevel(parent)
         self.window.title("Column Settings")
-        self.window.geometry("550x520")
+        self.window.geometry("600x520")
         self.window.configure(bg="#1e1e1e")
         self.window.resizable(False, False)
         
@@ -1001,5 +1001,9 @@ class ExcelComparisonApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
+    try:
+        root.iconbitmap("excel_logo.ico")
+    except:
+        pass
     app = ExcelComparisonApp(root)
     root.mainloop()
